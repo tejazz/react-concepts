@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button.search {
+  margin: 5px;
+}
+
+.addUser label {
+    width:180px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+    float: left;
+}
+
+.addUser input {
+    float:left;
+    margin: 3px;
+}
+
+.add-btn {
+  margin-top: 60px;
+  margin-right: 30px!important;
+  float: left!important;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.Update.btn.btn-primary {
+  float: right!important;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+
+.Update.btn.btn-default {
+  float: right!important;
+  margin-top: -40px;
+}
+
+.App.container {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    background: lightgoldenrodyellow;
+}
+
+input.submit.btn.btn-primary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: forestgreen;
+}
+
+.error-msg {
+  color: red;
+}
+
+input.btn.btn-primary.add-btn {
+    margin-top: 60px;
+    margin-left: -80px;
+}
